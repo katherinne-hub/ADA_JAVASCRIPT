@@ -1,4 +1,3 @@
-const { error, log } = require('console');
 const fs = require ('fs');
 
 //definimos la ruta del archivo json que vamos a manipular
@@ -6,7 +5,7 @@ const rutaArchivo = './productos.json';
 
 //paso 1: leer el archivo json
 fs.readFile(rutaArchivo, 'utf-8', (err, data) => {
-    if (error) {
+    if (err) {
         console.error('Error al leer el archivo', err)
         return //detiene la ejecucion del programa 
     }

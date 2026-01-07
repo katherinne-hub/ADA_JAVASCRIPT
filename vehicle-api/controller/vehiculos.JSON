@@ -1,0 +1,39 @@
+/*3. Manejo de Datos con JSON
+o Objetivo: Crear y gestionar archivos JSON para
+vehículos, marcas y modelos.
+o Instrucciones:
+▪ En la carpeta data, crea un archivo JSON:
+vehicles.json,
+▪ El archivo debe contener datos iniciales para
+vehículos, marcas y modelos, respectivamente.
+▪ Implementa en el modelo la lógica para leer y
+escribir datos desde y hacia estos archivos
+usando el módulo FS.*/
+
+[{
+    "id": 1,
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "año": 2020,
+    "color": "Blanco",
+
+},
+{
+    "id":2,
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "año": 2012,
+    "color": "Blanco"
+},
+{
+    "id":3,
+    "marca": "Ford",
+    "modelo": "Mustang",
+    "año": 2019,
+    "color": "Rojo"
+
+}
+
+
+
+]

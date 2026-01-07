@@ -1,5 +1,18 @@
 {
+  "name": "ada_trabajo_js",
+  "version": "1.0.0",
+  "main": "index.js",
   "dependencies": {
-    "prompt-sync": "^4.2.0"
-  }
+    "ansi-regex": "^4.1.1",
+    "prompt-sync": "^4.2.0",
+    "strip-ansi": "^5.2.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
